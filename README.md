@@ -2,6 +2,7 @@
 Repositorio do DESAFIO 2 do Curso de PowerBi da DIO
 
 # Foram realizados ajustes nos Scripts de cração do Schema e carga dos dados no Azure MySQL
+
 # AJUSTES DOS SCRIPTS: 
 Havia FK invertida de employee com department. O modelo checava se a department existia no employee e não o contrario
 - foreign key (Mgr_ssn) references employee(Ssn)
@@ -14,4 +15,6 @@ Tive que retirar esse registro da tabela Works_on pois ele tinha FK e não ligav
 - (888665555, 20, 0.0);
 
 # Resolucao do desafio no arquivo DOC anexo com prints
+Desafio de Projeto - Processando e Transformando Dados com Power BI - RESOLUCAO.docx
+
 Obs. Usei o padrão de duplicar as consultas a Cada transforação significativa dos dados, para preservar a resolução de cada item proposto
